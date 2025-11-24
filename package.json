@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "bin": {
+    "ple": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.22.0",
+    "@octokit/rest": "^22.0.1",
+    "@types/express": "^5.0.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "gray-matter": "^4.0.3",
+    "js-yaml": "^4.1.1",
+    "openai": "^6.9.1",
+    "resend": "^6.5.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^24.10.1",
+    "install": "^0.13.0",
+    "typescript": "^5.9.3",
+    "typescriptnpm": "^1.0.1"
+  }
+}
